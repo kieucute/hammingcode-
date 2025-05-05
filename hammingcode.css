@@ -1,0 +1,169 @@
+body
+{
+    background-color: rgba(0, 3, 5, 0.288);
+    font-family: 'Baloo Tamma 2', cursive;
+}
+h1
+{
+    font-size: 45px;
+    color: rgba(138, 3, 3, 0.932);
+    margin-left: 120px;
+}
+h2
+{
+    margin-left: 70px;
+    color: darkblue;
+}
+.d7
+{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color: gold;
+    width: 40px;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+.d6
+{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color: gold;
+    width: 40px;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+.d5
+{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color: gold;
+    width: 40px;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+.d3
+{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color: gold;
+    width: 40px;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+.btn
+{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color: rgba(3, 88, 247, 0.452);
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10%;
+    cursor:pointer;
+}
+.btn:hover
+{
+    background-color: rgba(3, 41, 146, 0.829);
+    transition: 0.5s;
+}
+.cw
+{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color:blanchedalmond;
+    width: 110px;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+.cw:hover
+{
+    background-color: rgba(5, 0, 0, 0.144);
+    transition: 0.5s;
+}
+.msg
+{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color:rgba(255, 254, 252, 0.89);
+    color: black;
+    width: 80px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+.RXw
+{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color:blanchedalmond;
+    width: 110px;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+.RXw:hover
+{
+    background-color: rgba(5, 0, 0, 0.144);
+    transition: 0.5s;
+}
+.cword
+{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color:blanchedalmond;
+    width: 110px;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+.cword:hover
+{
+    background-color: rgba(5, 0, 0, 0.144);
+    transition: 0.5s;
+}
+.rmessage
+{
+    font-family: 'Baloo Tamma 2', cursive;
+    background-color: gold;
+    width: 60px;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+.rmessage:hover
+{
+    background-color: rgba(5, 0, 0, 0.144);
+    transition: 0.5s;
+}
+.decoder
+{
+    position: absolute; visibility: visible; left: 235px; top: 301px;
+    font-size: 18px;
+    color: rgb(0, 157, 255);
+}
+.receivedmsg
+{
+    position: absolute; visibility: visible; left: 486px; top: 301px;
+    font-size: 18px;
+    color: rgb(0, 208, 255);
+}
+.corrected
+{
+    position: absolute; visibility: visible; left: 360px; top: 301px;
+    font-size: 18px;
+    color: rgb(0, 145, 255);
+}
+.codeword
+{
+    position: absolute; visibility: visible; left: 425px; top: 155px;
+    font-size: 18px;
+    color: rgb(0, 255, 187);
+}
