@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(7,4) Hamming Code</title>
+    <link rel="stylesheet" href="hammingCode.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>(7,4) Hamming Code</h1>
+    <h2>
+        Transmitter<br>
+        <select class="d7" id="digit7">
+            <option value="0">0</option>
+            <option value="1">1</option>
+        </select>
+        <select class="d6" id="digit6">
+            <option value="0">0</option>
+            <option value="1">1</option>
+        </select>
+        <select class="d5" id="digit5">
+            <option value="0">0</option>
+            <option value="1">1</option>
+        </select>
+        <select class="d3" id="digit3">
+            <option value="0">0</option>
+            <option value="1">1</option>
+        </select><span>&#8594;</span>
+        <button class="btn" onclick="hammingCode()">Encoder</button><span>&#8594;</span>
+        <input class="cw" id="codeWord"><br>
+        <span class="codeword">Codeword</span>
+        <hr style="width:470px; text-align:left; margin-left:0; margin-top: 40px;">
+        Receiver<br>
+        <input class="RXw" id="RXword"><span>&#8594;</span>
+        <span class="decoder">Decoder</span>
+        <span class="corrected">Corrected</span>
+        <span class="receivedmsg">Message</span>
+        <input class="msg" id="RXmsg"><span>&#8594;</span>
+        <input class="cword" id="cWord"><span>&#8594;</span>
+        <input class="rmessage" id="rMessage">
+
+    </h2> 
+</body>
+<script src="hammingCode.js"></script>
+</html>
